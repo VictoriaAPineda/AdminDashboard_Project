@@ -4,8 +4,42 @@
     box-sizing: border-box;
 }
 
+#grid-container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border: 1px dotted black;
+
+
+}
+
 #aside{
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    grid-row-start: 1;
+    grid-row-end: 6 ;
+    background-color: lightblue;
+}
+
+#header{
+    grid-column-start: 2;
+    grid-column-end: -1;
+
+    grid-row-start: 1;
+    grid-row-end:  2;
+    background-color: lightpink;
+    /* flex child elements*/
     display: flex;
     flex-direction: column;
-    
+}
+#header #search{
+    display: flex;
+}
+#header #user-actions{
+    display: flex;
+}
+#dashboard{
+    grid-row-start: 2;
+    grid-row-end:  6;
+    background-color: lightgreen;
 }
