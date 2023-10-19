@@ -47,7 +47,7 @@
 }
 
 
-
+/* Header of dashboard */
 #header{
     grid-column-start: 2;
     grid-column-end: -1;
@@ -89,14 +89,42 @@
 #search > div + div i + i {
     font-size: 30px;
 }
-
-
-
-
-
 #header #user-actions{
     display: flex;
+    justify-content: space-between;
+    padding: 0px 30px 20px 30px;
 }
+#user-actions #user-tag{
+    display: flex;
+    align-items: center;
+}
+#user-tag i{
+    font-size: 45px;
+    margin-right: 15px;
+}
+#user-tag div p{
+    font-size: 10px;
+}
+#user-posting-btns{
+    display: flex;
+    align-items: center;
+}
+#user-posting-btns button{
+    border: none;
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: #26a0d9;
+    color: #fff;
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+
 #dashboard{
     grid-row-start: 2;
     grid-row-end:  6;
