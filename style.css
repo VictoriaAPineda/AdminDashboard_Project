@@ -7,7 +7,6 @@
 #grid-container{
     display: grid;
     grid-template-columns:0.5fr 3fr;
-    border: 1px dotted black;
     height: 100vh;
 
     justify-content: center;
@@ -52,19 +51,48 @@
 #header{
     grid-column-start: 2;
     grid-column-end: -1;
-
     grid-row-start: 1;
     grid-row-end:  2;
-    background-color: lightpink;
+    background-color: #fff;
     /* flex child elements*/
     display: flex;
     flex-direction: column;
-
-
 }
 #header #search{
+    /* border: 1px solid black; */
     display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    white-space: nowrap;
 }
+#search input {
+   width: 400px;
+   height: 20px;
+   background-color: #e2e8f0;
+   border: none;
+   border-radius: 10px;
+   padding-left: 10px; 
+   align-items: center;
+   margin-right: 20px;
+}
+#search  div:first-child{
+    padding-top:5px;
+} 
+#search > div + div {
+    display: flex;
+    align-items: center;
+}
+#search > div + div i {
+    margin-right: 20px;
+}
+#search > div + div i + i {
+    font-size: 30px;
+}
+
+
+
+
+
 #header #user-actions{
     display: flex;
 }
