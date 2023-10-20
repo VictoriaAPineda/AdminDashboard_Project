@@ -17,14 +17,11 @@
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 6 ;
-
     background-color: #26a0d9;
     color: white;
-
     display: flex;
     flex-direction: column;
     align-items: left;
-    
     padding: 20px;
     white-space: nowrap;
 }
@@ -45,8 +42,6 @@
     text-decoration: none;
     color: white;
 }
-
-
 /* Header of dashboard */
 #header{
     grid-column-start: 2;
@@ -54,12 +49,10 @@
     grid-row-start: 1;
     grid-row-end:  2;
     background-color: #fff;
-    /* flex child elements*/
     display: flex;
     flex-direction: column;
 }
 #header #search{
-    /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
     padding: 20px 30px;
@@ -119,7 +112,6 @@
     margin-left: 15px;
     cursor: pointer;
 }
-
 /* Dashboard area */
 #dashboard{
     grid-row-start: 2;
@@ -127,13 +119,10 @@
     background-color: #e2e8f0;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* border: 2px dotted purple; visual aid */
-   
 }
 #projects-container{
     display: flex;
     flex-direction: column;
-    /* border: 2px dotted red; */
     padding: 20px 20px;
 }
 #grid-project{
@@ -167,8 +156,7 @@
     margin-left: 20px;
     font-size: 20px;
 }
-
-/* Announcements [wip]*/
+/* News Feed aside cards*/
 #news-feed h5{
     font-size: 20px;
     margin-top: 20px;
@@ -195,7 +183,6 @@
     display: flex;
     align-items: center;
 }
-
 #trending-area .trend i{
     font-size: 30px;
     padding: 10px;
