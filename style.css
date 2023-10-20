@@ -186,7 +186,7 @@
     padding: 20px 40px;
 }
 #announcements-area .announcement:not(:last-child) {
-    border-bottom: 1px #e2e8f0 solid;
+    border-bottom: 1px #cfd4db solid;
 }
 .announcement p{
     padding-bottom: 15px;
