@@ -191,3 +191,12 @@
 .announcement p{
     padding-bottom: 15px;
 }
+#trending-area .trend{
+    display: flex;
+    align-items: center;
+}
+
+#trending-area .trend i{
+    font-size: 30px;
+    padding: 10px;
+}
