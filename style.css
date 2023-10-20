@@ -170,6 +170,7 @@
     margin-top: 15px;
     text-align: left;
     margin-right: 30px;
+    margin-bottom: 15px;
     box-shadow: 0px 3px 5px rgba(0, 0, 0,0.3);
     padding: 20px 40px;
 }
@@ -183,7 +184,13 @@
     display: flex;
     align-items: center;
 }
+#trending-area .trend:not(:last-child){
+    padding-bottom: 10px;
+}
 #trending-area .trend i{
     font-size: 30px;
     padding: 10px;
+}
+#trending-area .trend .trend-title{
+    color: #7b7b7b;
 }
